@@ -1,0 +1,29 @@
+{
+    "name": "Instagram Video URL Grabber",
+    "version": "2018.10.13",
+    "description": "Automatically finds direct URLs to Instagram videos",
+    "author": "Sean Pesce",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "background": {
+      "scripts": ["InstagramVideoURL.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "24": "images/icons/download/ic_file_download_maroon_dark_24dp_mdpi.png",
+        "36": "images/icons/download/ic_file_download_maroon_dark_24dp_hdpi.png",
+        "48": "images/icons/download/ic_file_download_maroon_dark_24dp_xhdpi.png",
+        "72": "images/icons/download/ic_file_download_maroon_dark_24dp_xxhdpi.png",
+        "96": "images/icons/download/ic_file_download_maroon_dark_24dp_xxxhdpi.png"
+      }
+    },
+    "icons": {
+      "24": "images/icons/download/ic_file_download_maroon_dark_24dp_mdpi.png",
+      "36": "images/icons/download/ic_file_download_maroon_dark_24dp_hdpi.png",
+      "48": "images/icons/download/ic_file_download_maroon_dark_24dp_xhdpi.png",
+      "72": "images/icons/download/ic_file_download_maroon_dark_24dp_xxhdpi.png",
+      "96": "images/icons/download/ic_file_download_maroon_dark_24dp_xxxhdpi.png"
+    },
+    "manifest_version": 2
+}
